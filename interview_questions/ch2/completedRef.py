@@ -60,111 +60,111 @@ class LinkedList:
         sum_list.display()
 
 
-#     def length(self):
-#         current_node = self.head
-#         length = 0
-#         while current_node.next != None:
-#             length+=1
-#             current_node = current_node.next
-#         return length
+    def length(self):
+        current_node = self.head
+        length = 0
+        while current_node.next != None:
+            length+=1
+            current_node = current_node.next
+        return length
 
-#     def get(self, index):
-#         current_index = 0
-#         current_node = self.head
-#         while current_node.next != None:
-#             current_node = current_node.next
-#             if current_index == index:
-#                 print(current_node.data)
-#                 return current_node.data
-#             else:
-#                 current_index+=1
+    def get(self, index):
+        current_index = 0
+        current_node = self.head
+        while current_node.next != None:
+            current_node = current_node.next
+            if current_index == index:
+                print(current_node.data)
+                return current_node.data
+            else:
+                current_index+=1
 
-#     def delete(self, index):
-#         current_index = 0
-#         current_node = self.head
-#         while current_node.next != None:
-#             prev_node = current_node
-#             current_node = current_node.next
-#             if current_index == index:
-#                 prev_node.next = current_node.next
-#                 break
-#             current_index += 1
+    def delete(self, index):
+        current_index = 0
+        current_node = self.head
+        while current_node.next != None:
+            prev_node = current_node
+            current_node = current_node.next
+            if current_index == index:
+                prev_node.next = current_node.next
+                break
+            current_index += 1
 
-#     def deleteDups(self):
-#         current_node = self.head
-#         hashTable = {}
+    def deleteDups(self):
+        current_node = self.head
+        hashTable = {}
 
-#         while current_node.next != None:
-#             prev_node = current_node
-#             current_node = current_node.next
-#             if current_node.data in hashTable:
-#                 prev_node.next = current_node.next
-#             else:
-#                 hashTable[current_node.data] = True
+        while current_node.next != None:
+            prev_node = current_node
+            current_node = current_node.next
+            if current_node.data in hashTable:
+                prev_node.next = current_node.next
+            else:
+                hashTable[current_node.data] = True
     
-#     def splitList(self):
-#         if self.length() == 0:
-#             print("Error Bitch: Try again... There is nothing in the list")
-#             return
-#         current_node = self.head
-#         new_list = self.head
-#         runner = self.head
-#         while runner.next != None:
-#             runner = runner.next
-#             if runner.next == None:
-#                 break
-#             runner = runner.next
-#             current_node = current_node.next
-#         toReturn = current_node.next
-#         current_node.next = None;
-#         return toReturn
+    def splitList(self):
+        if self.length() == 0:
+            print("Error Bitch: Try again... There is nothing in the list")
+            return
+        current_node = self.head
+        new_list = self.head
+        runner = self.head
+        while runner.next != None:
+            runner = runner.next
+            if runner.next == None:
+                break
+            runner = runner.next
+            current_node = current_node.next
+        toReturn = current_node.next
+        current_node.next = None;
+        return toReturn
 
 
-#     def findLast(self):
-#         current_node = self.head
-#         while current_node.next != None:
-#             current_node = current_node.next
-#             if current_node.next == None:
-#                 print(current_node.data)
-#                 return current_node.data
+    def findLast(self):
+        current_node = self.head
+        while current_node.next != None:
+            current_node = current_node.next
+            if current_node.next == None:
+                print(current_node.data)
+                return current_node.data
 
 
-#     def deleteMiddle(self):
-#         if self.length() < 2:
-#             print("Whoa bitch... Thats as far as you go...")
-#             return
-#         target_index = round(self.length() / 2)
-#         current_index = 0
-#         current_node = self.head
-#         while current_node.next != None:
-#             prev_node = current_node
-#             current_node = current_node.next
-#             if target_index == current_index:
-#                 prev_node.next = current_node.next
-#                 return
-#             else:
-#                 current_index += 1
+    def deleteMiddle(self):
+        if self.length() < 2:
+            print("Whoa bitch... Thats as far as you go...")
+            return
+        target_index = round(self.length() / 2)
+        current_index = 0
+        current_node = self.head
+        while current_node.next != None:
+            prev_node = current_node
+            current_node = current_node.next
+            if target_index == current_index:
+                prev_node.next = current_node.next
+                return
+            else:
+                current_index += 1
 
-#     def returnKth(self, int):
-#         target = self.length() - int - 1
-#         current_index = 0
-#         current_node = self.head
+    def returnKth(self, int):
+        target = self.length() - int - 1
+        current_index = 0
+        current_node = self.head
 
-#         while current_node.next != None:
-#             current_node = current_node.next
-#             if target == current_index:
-#                 print(current_node.data)
-#                 return current_node.data
-#             current_index += 1
+        while current_node.next != None:
+            current_node = current_node.next
+            if target == current_index:
+                print(current_node.data)
+                return current_node.data
+            current_index += 1
     
-    # def displayNew(self, newList):
-    #     iterateThis = newList
-    #     elems = []
-    #     while iterateThis.next != None:
-    #         iterateThis = iterateThis.next
-    #         elems.append(iterateThis.data)
-    #     print(elems)
-    #     return elems
+    def displayNew(self, newList):
+        iterateThis = newList
+        elems = []
+        while iterateThis.next != None:
+            iterateThis = iterateThis.next
+            elems.append(iterateThis.data)
+        print(elems)
+        return elems
         
 
 
