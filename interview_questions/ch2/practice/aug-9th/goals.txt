@@ -1,0 +1,20 @@
+2.	Create Linked List: DONE
+3.	Append new node: DONE
+        -Forward and backward DONE
+4.	Display new node: DONE
+5.	Length new node: DONE
+6.	Get specific node: DONE
+7.	Delete specific node: DONE
+8.	Delete duplicate nodes: DONE
+9.	Split the list in the middle: 
+10.	Find last node: DONE
+11.	Delete middle node: DONE
+12.	Sum Two Lists: DONE
+
+########################################################################################
+
+1.  REVERSE LINKED LIST:
+        - RECURSIVE REVERSE:
+2.	Palindrome
+3.	Palindrome permutations
+4.	Reversing a linked list
