@@ -1,0 +1,31 @@
+Goals for today:
+    ********* LINKED LISTS THE CORRECT WAY NOW... OOPS ******
+2.	Create Linked List: DONE
+3.0	NEW - Append new node: DONE
+3.1 NEW - Insert after specific node: DONE
+3.2 NEW - Prepend new node: DONE
+4.	Display new node: DONE
+5.	Length new node: DONE
+6.	Get specific node: DONE
+7.	Delete specific data node by 'value': DONE
+7.1 NEW - Delete node at specific postion in list: DONE
+8.	Delete duplicate nodes: DONE
+9.	Split the list in the middle: DONE
+10.	Find last node: DONE
+11.	Delete middle node: DONE
+12.	Sum Two Lists: DONE
+13. NEW - HACKY way to reverse: Did it because what is the harm :)
+14. NEW - Reverse linked list: DONE ... now understand it.
+
+########################################################################################
+5.5 HOURS LATER: I still haven't got to anything under this. BECAUSE the way I learned Linked
+Lists was wrong so I had to go back and learn the right way. Everything here should be good
+now! :D 
+
+1.  REVERSE LINKED LIST:
+        - RECURSIVE REVERSE:
+2.	Palindrome
+3.	Palindrome permutations
+4.	Reversing a linked list
+
+I will knock out all the linked list algos first, and probably quicker than today, then MASTER that reverse iteration algorithm THEN top it with doing a reverse recursion. I got this ;) 

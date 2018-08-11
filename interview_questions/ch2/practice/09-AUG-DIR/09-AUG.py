@@ -1,21 +1,21 @@
 class Node:
-    def __init__(self, data=None):
+    def __init__(self, data):
         self.data = data
         self.next = None
 
 class LinkedList:
     def __init__(self):
-        self.head = Node()
+        self.head = None
 
     def addToListForward(self, data):
         new_node = Node(data)
-        current_head = self.head
-
-        prev_node = current_head
-        current_head = current_head.next
-
-        prev_node.next = new_node
-        new_node.next = current_head
+        if self.head is None:
+            self.head = new_node
+            return
+        last_node = self.head
+        while last_node.next:
+            last_node = last_node.next
+        last_node.next = new_node
         
     def addToListBackward(self, data):
         new_node = Node(data)
