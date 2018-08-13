@@ -1,0 +1,23 @@
+Goals for today:
+
+2.	Create Linked List: 
+3.0	NEW - Append new node: 
+3.1 NEW - Insert after specific node: DONE-Needs attention 
+3.2 NEW - Prepend new node: 
+4.	Display new node: 
+5.	Length new node: 
+6.	Get specific node by value(data): Kind of pointless because you may not know all the data for it to be that specific.
+6.1 Get specific node in a list using index: 
+7.  Delete specific node by index position: 
+7.1	Delete specific data node by 'value': 
+7.1 NEW - Delete node at specific postion in list: D
+8.	Delete duplicate nodes: 
+9.	Split the list in the middle: 
+10.	Find last node: 
+11.	Delete middle node: 
+12.	Sum Two Lists: 
+13. NEW - HACKY way to reverse: Did it because what is the harm :)
+14. NEW - Reverse linked list: 
+15. NEW - Swap node with any other node in the list:
+
+

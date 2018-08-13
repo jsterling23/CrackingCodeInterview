@@ -320,6 +320,10 @@ class LinkedList:
         else:
             self.head = curr_1
 
+        temp = curr_1.next
+        curr_1.next = curr_2.next
+        curr_2.next = temp
+
         # curr_1.next, curr_2.next = curr_2.next, curr_1.next
 
 
